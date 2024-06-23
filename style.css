@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #F7F9FA; /* Light gray background */
+  }
+  
+  .header {
+    padding: 80px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #FF69B4, #FFC0CB); /* Gradient effect with pink and peach colors */
+    color: white;
+  }
+  
+  .header h1 {
+    font-size: 40px;
+  }
+  
+  nav {
+    width: 100%;
+    background-color: #2C3E50; /* Dark blue-gray color */
+    overflow: auto;
+    height: auto;
+  }
+  
+  .links {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    color: #F7DC6F; /* Warm yellow color */
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .links:hover {
+    background-color: #455A64; /* Dark gray-blue color */
+  }
+  
+  .selected {
+    background-color: #2196F3; /* Bright blue color */
+  }
+  
+  main {
+    background-color: #FFFFFF; /* White background */
+    padding: 20px;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, #FFC107, #FF8C00); /* Gradient effect */
+  }
+  
+  #task-input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #task-date {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #add-task-btn {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #add-task-btn:hover {
+    background-color: #3e8e41; /* Darker green color */
+  }
+  
+  .task.done {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  .tick-mark {
+    color: #34C759; /* Bright green color */
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  #task-list {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, #66D9EF, #34A85A); /* Gradient effect */
+  }
